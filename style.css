@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 12rem;
+}
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.help {
+  border-bottom: 2px solid;
+}
+.section-1 {
+  padding: 0 12rem;
+  display: grid;
+  grid-template-columns: 90% 1fr;
+  overflow: hidden;
+  width: 100vw;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.section-1 h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.section-1 p {
+  max-width: 26rem;
+  border-left: 2px solid;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+button {
+  background-color: red;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.section-1 img {
+  position: sticky;
+  right: 0;
+  width: 33rem;
+  background-color: white;
+}
+.preview {
+  width: 20rem;
+}
+
+.section-2 {
+  padding: 0 12rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.section-2 p {
+  margin-top: 1rem;
+}
+.shape {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.dot {
+  height: 0.25rem;
+  width: 0.25rem;
+  background-color: silver;
+}
+.line {
+  display: flex;
+}
+.line2 {
+  height: 0.2rem;
+  width: 2rem;
+  background-color: red;
+  margin-top: 2rem;
+}
+.lm {
+  margin-top: 4rem;
+  color: red;
+  font-size: 10px;
+}
+.section-3 {
+  padding: 0 12rem;
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+.section-3 p {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  border-left: 2px solid;
+  padding-left: 1rem;
+}
+.section-4 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./media/runners.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-left: 48rem;
+  padding-top: 10rem;
+}
+.control {
+  font-size: 32px;
+  margin-bottom: 3rem;
+}
+.with {
+  margin-bottom: 2rem;
+  border-left: 2px solid;
+  padding-left: 2rem;
+  padding-right: 9.3rem;
+}
